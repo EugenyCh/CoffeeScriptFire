@@ -1,0 +1,17 @@
+body {
+    background-color: #13171E;
+}
+
+#canvas {
+    background: radial-gradient(at 75% 25%, #093C2D, #111B2A, #13171E);
+    box-shadow: 0 0 0 6px black;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: crosshair;
+}
