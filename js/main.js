@@ -43,7 +43,7 @@
         e.preventDefault();
         if (this.controllable instanceof ParticleSystem) {
           if (e.shiftKey) {
-            return this.controllable.scatter = Math.max(0, this.controllable.scatter - e.deltaY / 100);
+            return this.controllable.scatter = Math.max(0, this.controllable.scatter - e.deltaY / 500);
           } else if (e.altKey) {
             return this.controllable.particleSize = Math.max(0, this.controllable.particleSize - e.deltaY / 20);
           } else {

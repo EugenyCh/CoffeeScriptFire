@@ -35,7 +35,7 @@ class World
       do e.preventDefault
       if @controllable instanceof ParticleSystem
         if e.shiftKey
-          @controllable.scatter = Math.max 0, @controllable.scatter - e.deltaY / 100
+          @controllable.scatter = Math.max 0, @controllable.scatter - e.deltaY / 500
         else if e.altKey
           @controllable.particleSize = Math.max 0, @controllable.particleSize - e.deltaY / 20
         else
